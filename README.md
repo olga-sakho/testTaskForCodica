@@ -19,7 +19,7 @@ The app is ready)
 
 endpoints:
 
-POST http://localhost:9000/bank
+POST http://localhost:9000/bank 
 GET http://localhost:9000/bank/:id
 GET http://localhost:9000/banks
 PUT http://localhost:9000/bank/:id
