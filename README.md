@@ -16,3 +16,23 @@ How to run the application with docker:
 
 
 The app is ready)
+
+endpoints:
+
+POST http://localhost:9000/bank
+GET http://localhost:9000/bank/:id
+GET http://localhost:9000/banks
+PUT http://localhost:9000/bank/:id
+DELETE http://localhost:9000/bank/:id
+
+POST http://localhost:9000/category
+GET http://localhost:9000/category/:id
+GET http://localhost:9000/category
+PUT http://localhost:9000/category/:id
+DELETE http://localhost:9000/category/:id
+
+POST http://localhost:9000/transaction
+GET http://localhost:9000/transaction?limit=number&offset=number
+DELETE http://localhost:9000/transaction/:id
+
+GET http://localhost:9000/statistics?bankId=ID&fromPeriod=DATE&toPeriod=DATE
