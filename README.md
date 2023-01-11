@@ -12,7 +12,7 @@ How to run the application with docker:
 
   1. Run the following command
 
-       docker-compose up
+       docker-compose up 
 
 
 The app is ready)
